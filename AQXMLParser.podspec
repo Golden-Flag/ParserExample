@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = false
 
   s.platform     = :ios, "7.0"
-  s.ios.deployment_target = '6.0'
+  s.ios.deployment_target = '7.0'
   # s.frameworks = 'CFNetwork'
   s.libraries = 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
